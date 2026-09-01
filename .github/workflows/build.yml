@@ -34,7 +34,6 @@ jobs:
             python3-dev \
             libffi-dev \
             libssl-dev \
-            libncurses5 \
             cython3 \
             wget \
             unzip \
