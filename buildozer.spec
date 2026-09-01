@@ -7,7 +7,7 @@ source.include_exts = py,png,jpg,kv,atlas
 source.exclude_dirs = tests, bin, .buildozer
 
 version = 0.1
-requirements = python3,kivy,pandas,openpyxl,pyjnius,requests
+requirements = python3,kivy,pyjnius,requests
 
 orientation = portrait
 fullscreen = 0
@@ -15,7 +15,7 @@ fullscreen = 0
 # Entry point for Android
 android.entrypoint = org.kivy.android.PythonActivity
 android.api = 33
-android.minapi = 21
+android.minapi = 24
 android.ndk = 25b
 android.archs = arm64-v8a,armeabi-v7a
 android.permissions = READ_EXTERNAL_STORAGE,WRITE_EXTERNAL_STORAGE,MANAGE_EXTERNAL_STORAGE,INTERNET
